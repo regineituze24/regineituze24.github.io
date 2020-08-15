@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+
+  height: 1080px;
+  background-size: cover;
+  height: 100vh;
+
+  background:  linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #2D1313;
+}
+.navigation {
+  height: 80px;
+  width: 1537px;
+  margin-right: 50px;
+  display: inline-block;
+  background-color: #2d1313;
+}
+
+h1 {
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  left: 100px;
+  top: 60px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: #2d1313;
+}
+h2 {
+  position: absolute;
+  width: 716px;
+  height: 330px;
+  left: 950px;
+  top: 170px;
+
+  font-family: Rubik;
+  font-style: BOLD;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  color: #2d1313;
+}
+p {
+  position: absolute;
+  width: 500px;
+  height: 330px;
+  left: 950px;
+  top: 190px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: black;
+}
+
+
+a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  top: 20px;
+  left: 30px;
+
+  display: inline-block;
+  margin-right: 80px;
+  float: right;
+  color: whitesmoke;}
+  .logo {
+    position: absolute;
+    width: 93px;
+    height: 243px;
+    left: 70px;
+    top: -80px;
+
+    font-family: Zapfino;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 243px;
+
+    color: #ffffff;
+  }
+}
+a:active {
+  color: black;
+}
+
+label,input,textarea{
+  display:block;
+  width: 80%;
+  padding: 12px;
+  color: bisque;
+
+
+}
+.button{
+  border-radius: 15px;
+  border: none;
+  padding: 5px ;
+  background-color: #f07a7a;
+  width: 550px;
+  height:40px;
+  left: 20px;
+
+}
+label{
+  font-family: poppins;
+  font-size: 30px;
+}
+/* Add a background color and some padding around the form */
+.cont {
+  border-radius: 5px;
+  background-color: #2d1313;
+  padding: 20px;
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  left: 60px;
+  top: 120px;
+}
+.link1 {
+  position: absolute;
+  left: 80%;
+  right: 87%;
+  top: 68.7%;
+  bottom: 23%;
+  font-size: 10%;
+  width: 70px;
+
+  background: #F07A7A;
+}

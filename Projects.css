@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  position: relative;
+
+  height: 1080px;
+  background-size: cover;
+  height: 100vh;
+
+  background: linear-gradient(180deg, #fffbfb 0%, #f6d3d3 100%), #ffffff;
+}
+
+.navigation {
+  height: 80px;
+  width: 1537px;
+  margin-right: 50px;
+  display: inline-block;
+  background-color: #2d1313;
+}
+a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  top: 20px;
+  left: 30px;
+
+  display: inline-block;
+  margin-right: 80px;
+  float: right;
+  color: whitesmoke;
+}
+.logo {
+  position: absolute;
+  width: 93px;
+  height: 243px;
+  left: 70px;
+  top: -80px;
+
+  font-family: Zapfino;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 243px;
+
+  color: #ffffff;
+}
+a:active {
+  color: black;
+}
