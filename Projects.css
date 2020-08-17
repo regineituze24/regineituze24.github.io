@@ -48,6 +48,7 @@ a {
 
   color: #ffffff;
 }
-a:active {
-  color: black;
+
+a:hover {
+  color: #f07a7a;
 }
